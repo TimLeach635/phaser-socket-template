@@ -1,0 +1,33 @@
+{
+  "name": "phaser-socket-template",
+  "version": "0.0.1",
+  "description": "A lightweight template for making a multiplayer game using Phaser and socket.io",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimLeach635/phaser-socket-template.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "game",
+    "multiplayer",
+    "phaser",
+    "socket"
+  ],
+  "author": "Tim Leach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimLeach635/phaser-socket-template/issues"
+  },
+  "homepage": "https://github.com/TimLeach635/phaser-socket-template#readme",
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "typescript": "^5.2.2"
+  }
+}
